@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import starIcon from '../assets/Group 4 (1).png'
-export default function Rate() {
+export default function Rate({setSubmit,rate,setRate}) {
     const buttons = [1,2,3,4,5]
+    
   return (
     
     <div className='container'>
@@ -15,10 +16,10 @@ export default function Rate() {
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
       </div>
       <div className="buttons">
-        {buttons.map(item => <button>{item}</button> )}
+        {buttons.map(item => <button key={item} onClick={()=>setRate(item) } style={{backgroundColor: rate == item ? "orange" : "" }} >{item}</button> )}
       </div>
       <div className="submit">
-        <button>SUBMIT</button>
+        <button onClick={()=> rate && setSubmit(true) } >SUBMIT</button>
       </div>
     </div>
   )
