@@ -1,0 +1,56 @@
+.container{
+  width: 310px;
+  height: 300px;
+  padding: 24px 22px 32px 24px;
+  border-radius: 15px;
+  background-image: radial-gradient(circle at 50% 0, #232a34, #181e27 90%);
+  align-items: center;
+}
+.star img{
+  width: 40px;
+  height: 40px;
+  flex-grow: 0;
+  margin: 0 241px 0px 0;
+  padding: 13.3px 12.7px 13.3px 13.3px;
+}
+.maintext h1{
+  width: 279px;
+  height: 37px;
+  margin: 0px 2px 10px 0;
+  font-family: Overpass;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.text p{
+  width: 279px;
+  height: 66px;
+  margin: 10px 2px 24px 0;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #969fad;
+}
+.submit button{
+  width: 279px;
+  height: 45px;
+  margin: 24px 2px 0 0;
+  padding: 12px 109px 12px 108px;
+  border-radius: 22.5px;
+  background-color: #fc7614;
+  border-style: none;
+  cursor: pointer;
+  color: #fff;
+ 
+}
+.buttons button{
+  width: 42px;
+  height: 42px;
+  margin: 0 17px 0 0;
+ cursor: pointer;
+ color: #7c8798;
+  background-color: #262e38;
+  border-radius: 20px;
+  border-style: none;
+  
+
+}
