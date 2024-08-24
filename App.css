@@ -54,3 +54,55 @@
   
 
 }
+.phoneimage{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.resulttext p{
+  width: 144px;
+  height: 22px;
+  
+  font-size: 14px;
+  
+  line-height: 1.57;
+  
+  text-align: center;
+  color: #fc7614;
+}
+.resulttext{
+  width: 168px;
+  height: 32px;
+  margin: 24px 55px 24px 56px;
+  padding: 5px 12px;
+  border-radius: 22.5px;
+  background-color: #262e38;
+}
+/* .maintext{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #262e38;
+  height: 40px;
+  align-items: center;
+} */
+ .thanks{
+  width: 279px;
+  height: 37px;
+  margin: 24px 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+ }
+ .appreciate p{
+  width: 279px;
+  height: 66px;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.57;
+  
+  text-align: center;
+  color: #969fad;
+ }
